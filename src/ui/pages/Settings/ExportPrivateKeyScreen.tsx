@@ -85,13 +85,6 @@ export default function ExportPrivateKeyScreen() {
               </Column>
             </Card>
 
-            <Text
-              text=" Please make sure you have read the security tips above before typing your password"
-              preset="title"
-              color="warning"
-              textCenter
-              my="xl"
-            />
             <Input
               preset="password"
               onChange={(e) => {
